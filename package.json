@@ -1,0 +1,29 @@
+{
+  "name": "jovirone",
+  "version": "1.0.0",
+  "description": "vai jovi vai jovi",
+  "main": "index.js",
+  "scripts": {
+    "jovirone": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiotheodoro/jovirone.git"
+  },
+  "keywords": [
+    "jovirone"
+  ],
+  "author": "caiotheodoro",
+  "license": "ISC",
+  "bin": {
+    "jovirone": "./index.js"
+  },  
+  "bugs": {
+    "url": "https://github.com/caiotheodoro/jovirone/issues"
+  },
+  "homepage": "https://github.com/caiotheodoro/jovirone#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
