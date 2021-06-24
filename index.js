@@ -13,7 +13,7 @@ const jovirone = function () {
     const linuxcmd = 'paplay ' + soundPath + '.ogg';
     const windowscmd = path.join(mainPath, './compWin.vbs') + ' ' + soundPath + '.mp3';
     const maccmd = 'afplay ' + soundPath + '.mp3';
-    const fotita = "start https://pbs.twimg.com/media/Epv2GwRW8AAKS12.png";
+    const fotita = "start https://github.com/caiotheodoro/jovirone#readme";
     const platform = process.platform;
 
     if (platform === 'linux') {
