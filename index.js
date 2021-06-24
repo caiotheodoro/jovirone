@@ -20,32 +20,24 @@ const jovirone = function () {
         return exec(linuxcmd);
     }
     else if (platform === 'win32') {
-        func1(fotita, function () {
-            exec(windowscmd);
 
-     
-        });
-      
+        exec(windowscmd);
 
     } else if (platform === 'darwin') {
-        func1(fotita, function () {
-         exec(maccmd);
-   
-    });
+
+        exec(maccmd);
+
     }
 
     function exec(cmd) {
-         return exect(cmd, function (error, stdout, stderr) {
-
+        return exect(cmd, function (error, stdout, stderr) {
             if (error)
                 console.error(error);
-    });
+        });
     }
 
-    function func1(param, callback) {
-
-        callback( exec(param) );
-      } 
+    function func1() { exec(fotita) };
+    setTimeout(func1, 15500);
 
 }
 
