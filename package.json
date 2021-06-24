@@ -4,7 +4,6 @@
   "description": "vai jovi vai jovi",
   "main": "index.js",
   "scripts": {
-    "jovirone": "node index.js",
     "start": "node index.js"
   },
   "repository": {
