@@ -9,7 +9,6 @@ const mainPath = path.dirname(fs.realpathSync(__filename));
 const soundPath = path.join(mainPath, './jovirone');
 
 const jovirone = function () {
-    var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
     const linuxcmd = 'paplay ' + soundPath + '.ogg';
     const windowscmd = path.join(mainPath, './compWin.vbs') + ' ' + soundPath + '.mp3';
     const maccmd = 'afplay ' + soundPath + '.mp3';
