@@ -15,9 +15,9 @@
     "jovirone"
   ],
   "author": "caiotheodoro",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
-    "jovirone": "./index.js"
+    "jovirone": "index.js"
   },
   "bugs": {
     "url": "https://github.com/caiotheodoro/jovirone/issues"
